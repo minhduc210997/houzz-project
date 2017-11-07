@@ -12,9 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('tom', function() {
-    return view('tom');
+    return view('about.about');
 });
