@@ -1,0 +1,140 @@
+.main-header {
+  overflow: hidden; }
+  .main-header .container {
+    padding-right: 0; }
+  .main-header .logo {
+    float: left;
+    padding-left: 38px; }
+  .main-header .search {
+    padding-left: 35px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 13px; }
+    .main-header .search form {
+      width: 455px;
+      height: 40px;
+      position: relative; }
+      .main-header .search form input {
+        width: 100%;
+        height: 40px;
+        padding-left: 30px;
+        padding-top: 1px;
+        word-spacing: 1.3px; }
+      .main-header .search form button {
+        position: absolute;
+        height: 40px;
+        border: none;
+        background: none;
+        box-shadow: none;
+        font-size: 13px;
+        left: 11px;
+        top: -1px; }
+  .main-header .search-button {
+    display: none; }
+    .main-header .search-button button {
+      height: 40px;
+      border: none;
+      background: none;
+      box-shadow: none;
+      font-size: 17px;
+      left: 11px;
+      top: -1px;
+      opacity: 0.7; }
+  .main-header .badge {
+    position: relative; }
+    .main-header .badge .badge-image {
+      position: absolute;
+      left: 49px;
+      top: 0px;
+      z-index: -999; }
+    .main-header .badge .badge-text {
+      position: absolute;
+      z-index: 100;
+      left: 107px;
+      top: 15px;
+      font-family: 'Muli', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      word-spacing: 2px;
+      color: #ffffff; }
+  .main-header .shopping-cart {
+    position: relative; }
+    .main-header .shopping-cart #shopping-cart-icon {
+      position: absolute;
+      left: -2px;
+      top: 13px;
+      z-index: 999; }
+    .main-header .shopping-cart #shopping-cart-number {
+      position: absolute;
+      left: 11px;
+      top: 0px;
+      z-index: -9999; }
+    .main-header .shopping-cart #order-number {
+      position: absolute;
+      font-size: 16px;
+      left: 17px;
+      top: -3px;
+      z-index: 999;
+      color: #ffffff; }
+  .main-header .login {
+    position: relative; }
+    .main-header .login img {
+      position: absolute;
+      padding-top: 10px;
+      left: -35px; }
+    .main-header .login a {
+      position: absolute;
+      left: -8px;
+      top: 12px;
+      font-family: 'Muli', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      word-spacing: 3px; }
+  .main-header .btn-mobile {
+    display: none; }
+  .main-header .span-search {
+    display: none;
+    padding: 0 !important;
+    margin: 0px 10px;
+    padding-left: 35px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 13px; }
+    .main-header .span-search form {
+      width: 100%;
+      height: 25px;
+      position: relative; }
+      .main-header .span-search form input {
+        border-radius: 10px;
+        width: 100%;
+        height: 25px;
+        padding-left: 30px;
+        padding-top: 1px;
+        word-spacing: 1.3px;
+        font-size: 11px; }
+      .main-header .span-search form button {
+        position: absolute;
+        height: 40px;
+        border: none;
+        background: none;
+        box-shadow: none;
+        font-size: 13px;
+        left: 11px;
+        top: -8px; }
+
+.header-nav {
+  box-sizing: border-box;
+  height: 42px;
+  margin-left: 159px;
+  margin-top: 3px; }
+  .header-nav a {
+    word-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14.16px;
+    font-weight: 700;
+    color: #515151;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 18px; }
+    .header-nav a img {
+      padding-bottom: 5px; }

@@ -1,0 +1,79 @@
+$footer-color: #ecebeb;
+
+.main-footer{
+    hr{
+        margin-top: 13px;
+        margin-bottom: 23px;
+    }
+
+    width: auto;
+    background-color: $footer-color;
+    padding-top: 40px;
+    margin-top: 60px;
+    img{
+        padding-top: 30px;
+        padding-left: 71px;
+    }
+    .sub-footer{
+        text-align: center;
+    }
+    h2{
+        font-family: 'Muli', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 6px;
+    }
+    ul{
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    li{
+        font-family: 'Muli', sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+        padding-bottom: 5.3px;
+        i{
+            padding-bottom: 13px;
+            padding-right: 16px;
+        }
+        
+    }
+    .sub-footer{
+        height: 50px;
+        span{
+            font-family: 'Muli', sans-serif;
+            font-size: 13px;
+            font-weight: 300;
+            padding-right: 15px;
+            word-spacing: 1px;
+        }
+        .copyright{
+            padding-right: 0px;
+            i{
+                padding-right: 1px;
+            }
+        }
+        .sologan{
+            padding-right: 9px;
+        }
+    }
+    .company{
+        padding-left: 80px;
+        word-spacing: 1px;
+    }
+    .connect{
+        padding-left: 11px;
+        word-spacing: 0.2px;
+        li{
+            margin-bottom: -5.9px; 
+            padding-left: 3px;
+        }
+    }
+.explore{
+        padding-left: 50px;
+        word-spacing: 1px;
+     
+       
+    }
+
+}

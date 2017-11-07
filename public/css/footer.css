@@ -1,0 +1,55 @@
+.main-footer {
+  width: auto;
+  background-color: #ecebeb;
+  padding-top: 40px;
+  margin-top: 60px; }
+  .main-footer hr {
+    margin-top: 13px;
+    margin-bottom: 23px; }
+  .main-footer img {
+    padding-top: 30px;
+    padding-left: 71px; }
+  .main-footer .sub-footer {
+    text-align: center; }
+  .main-footer h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 6px; }
+  .main-footer ul {
+    list-style-type: none;
+    padding-left: 0px; }
+  .main-footer li {
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 5.3px; }
+    .main-footer li i {
+      padding-bottom: 13px;
+      padding-right: 16px; }
+  .main-footer .sub-footer {
+    height: 50px; }
+    .main-footer .sub-footer span {
+      font-family: 'Muli', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      padding-right: 15px;
+      word-spacing: 1px; }
+    .main-footer .sub-footer .copyright {
+      padding-right: 0px; }
+      .main-footer .sub-footer .copyright i {
+        padding-right: 1px; }
+    .main-footer .sub-footer .sologan {
+      padding-right: 9px; }
+  .main-footer .company {
+    padding-left: 80px;
+    word-spacing: 1px; }
+  .main-footer .connect {
+    padding-left: 11px;
+    word-spacing: 0.2px; }
+    .main-footer .connect li {
+      margin-bottom: -5.9px;
+      padding-left: 3px; }
+  .main-footer .explore {
+    padding-left: 50px;
+    word-spacing: 1px; }

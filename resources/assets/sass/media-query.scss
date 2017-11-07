@@ -1,0 +1,256 @@
+//xs-sm screen
+@media (max-width: 767px) {
+    header{
+        height: 80px;
+    }
+    .main-header{
+        .logo{
+            width: 50%;
+            padding: 5px 20px 0 20px;
+        }
+        .search{
+            display: none;
+        }
+        .search-button{
+            display: block;
+            width: 12%;
+            padding: 5px 0;
+        }
+        .badge{
+            display: none;
+        }
+        .shopping-cart{
+            width: 12%;
+            margin: 5px 0;
+        }
+        .login{
+            width: 12%;
+            padding: 0;
+            a{
+                display: none;
+            }
+            img{
+                left: 0;
+                top: 5px;
+            }
+        }
+        .btn-mobile{
+            padding-top: 5px;
+            width: 12%;
+            display: block;
+            div{
+                width: 30px;
+                height: 5px;
+                background-color: green;
+                margin: 6px 0;
+            }
+        }
+    }
+    .main-section{
+        .main-nav-dropdown{
+            display: block;
+        }
+    }
+    .header-nav{
+        ul{
+            display: none;
+        }
+    }
+    .topbanner{
+        .text{
+            font-size: 33px!important;
+        }
+    }
+    .main-nav{
+        display: none;
+    }
+    .about-section{
+        h1{
+            font-size: 22px!important;
+        }
+        p{
+            padding: 0 10px!important;
+            font-size: 13px!important;
+            margin-bottom: 10px!important;
+        }
+        a{
+            padding: 0!important;
+        }
+    }
+    .story-section{
+        .story-image{
+            padding-bottom: 10px;
+        }
+    }
+    .main-footer{
+        padding: 0;
+        padding-top: 25px;
+        text-align: center;
+        img, .company, .explore, .connect{
+            padding: 0;
+        }
+        img{
+            padding-bottom: 30px;
+        }
+        .sub-footer{
+            .sologan{
+                display: block;
+                padding:0;
+            }
+        }
+        hr{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-header{
+        .logo{
+            width: 20%;
+            padding: 0;
+        }
+        .search{
+            width: 40%;
+            padding: 0;
+            form, input{
+                width: 100%;
+            }
+            input{
+                font-size: 12px;
+            }
+        }
+        .badge{
+            overflow: hidden;
+            width: 26%;
+            .badge-image{
+                left:0;
+            }
+            .badge-text{
+                left: 45px;
+            }
+        }
+        .shopping-cart{
+            width: 7%;
+            margin: 5px 0;
+            #shopping-cart-icon{
+                left: 15px;
+            }
+            #shopping-cart-number{
+                left:28px;
+            }
+            #order-number{
+                left:34px;
+            }
+        }
+        .login{
+            width: 7%;
+            padding: 0;
+            a{
+                display: none;
+            }
+            img{
+                left: 10px;
+                top: 5px;
+            }
+        }
+    }
+    .header-nav{
+        margin: 0;
+        a{
+            padding: 15px 10px;
+            font-size: 13px;
+            word-spacing: 0;
+        }
+    }
+    .main-section{
+        .main-nav{
+            ul{
+                margin: 0;
+            }
+            .nav-item{
+                padding: 8px 0px;
+            }
+        }
+        .story-section{
+            h2{
+                text-align: center;
+            }
+            .story-image{
+                padding-bottom: 40px;
+                img{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        } 
+        .about-section{
+            p{
+                padding: 0;
+                display: inline;
+            }
+            a{
+                margin-top: 10px;
+                display: block;
+            }
+        }
+    }
+  
+    .main-footer{
+        img, .company, .explore, .connect{
+            padding: 0;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-header{
+        .logo{
+            padding-left: 10px;
+        }
+        .search{
+            padding: 0px;
+            form{
+                width: 340px;
+            }
+        }
+        .badge{
+            .badge-image{
+                left: -11px;
+            }
+            .badge-text{
+                left: 41px;
+            }
+        }
+        .shopping-cart{
+            #shopping-cart-icon{
+                left: 0px;
+            }
+            #shopping-cart-number{
+                left: 11px;
+            }
+            a{
+                left: 0px;
+            }
+        }
+    }
+    .header-nav{
+        margin: 3px 20px;
+    }
+    .main-section{
+        .text{
+            font-size: 35px!important;
+        }
+        .main-nav{
+            ul{
+                margin: 0;
+                justify-content: center;
+            }
+        }
+    }
+   
+}
